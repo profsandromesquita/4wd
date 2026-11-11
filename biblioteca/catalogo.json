@@ -1,0 +1,2326 @@
+[
+ {
+  "id": "arduino_uno",
+  "nome": "Arduino Uno R3",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Placa controladora: o cérebro do carro. Recebe os sensores e comanda os motores.",
+  "aproximado": false,
+  "fonte": "Dimensoes oficiais (desenho mecanico do fabricante).",
+  "dim": [
+   74.8,
+   53.3,
+   12.5
+  ],
+  "bbox": [
+   [
+    -6.2,
+    0.0,
+    0.0
+   ],
+   [
+    68.58,
+    53.34,
+    12.5
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "furo1",
+    "tipo": "m3",
+    "pos": [
+     13.97,
+     2.54,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m3",
+    "pos": [
+     15.24,
+     50.8,
+     0
+    ]
+   },
+   {
+    "id": "furo3",
+    "tipo": "m3",
+    "pos": [
+     66.04,
+     7.62,
+     0
+    ]
+   },
+   {
+    "id": "furo4",
+    "tipo": "m3",
+    "pos": [
+     66.04,
+     35.56,
+     0
+    ]
+   },
+   {
+    "id": "soquete-shield",
+    "tipo": "uno-socket",
+    "pos": [
+     0,
+     0,
+     10.1
+    ]
+   }
+  ]
+ },
+ {
+  "id": "motor_shield_l293d",
+  "nome": "Motor Shield L293D",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Encaixa sobre o Arduino e fornece a corrente para até 4 motores DC (bornes M1 a M4).",
+  "aproximado": true,
+  "fonte": "Contorno e pinos no padrão Uno (oficial); posição dos componentes aproximada.",
+  "dim": [
+   68.6,
+   53.3,
+   22.6
+  ],
+  "bbox": [
+   [
+    0.0,
+    0.0,
+    -11.0
+   ],
+   [
+    68.58,
+    53.34,
+    11.6
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "pinos-uno",
+    "tipo": "uno-plug",
+    "pos": [
+     0,
+     0,
+     -2.5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lm2596",
+  "nome": "Regulador LM2596",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Conversor step-down: reduz a tensão das baterias para um valor estável (ex.: 5 V).",
+  "aproximado": true,
+  "fonte": "Placa 43,2 x 21 x 14 mm (confirmado em datasheet de módulo); posição dos furos aproximada.",
+  "dim": [
+   43.2,
+   21.0,
+   12.8
+  ],
+  "bbox": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    43.2,
+    21.0,
+    12.8
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "furo1",
+    "tipo": "m3",
+    "pos": [
+     6.6,
+     18.4,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m3",
+    "pos": [
+     36.6,
+     2.6,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "motor_28byj48",
+  "nome": "Motor de passo 28BYJ-48",
+  "categoria": "Motores",
+  "qtd_kit": 1,
+  "descricao": "Motor de passo com redução: gira em ângulos precisos. Útil para apontar o sensor.",
+  "aproximado": false,
+  "fonte": "Datasheet 28BYJ-48: corpo 28 mm, furos a 35 mm, eixo 5 mm deslocado 8 mm.",
+  "dim": [
+   42.0,
+   31.0,
+   30.5
+  ],
+  "bbox": [
+   [
+    -21.0,
+    -17.0,
+    0.0
+   ],
+   [
+    21.0,
+    14.0,
+    30.5
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "orelha1",
+    "tipo": "m3",
+    "pos": [
+     17.5,
+     0,
+     19.0
+    ]
+   },
+   {
+    "id": "orelha2",
+    "tipo": "m3",
+    "pos": [
+     -17.5,
+     0,
+     19.0
+    ]
+   },
+   {
+    "id": "orelha1b",
+    "tipo": "m3",
+    "pos": [
+     17.5,
+     0,
+     18.2
+    ]
+   },
+   {
+    "id": "orelha2b",
+    "tipo": "m3",
+    "pos": [
+     -17.5,
+     0,
+     18.2
+    ]
+   }
+  ]
+ },
+ {
+  "id": "driver_uln2003",
+  "nome": "Driver ULN2003",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Placa que amplifica os sinais do Arduino para acionar o motor de passo.",
+  "aproximado": true,
+  "fonte": "Medidas tipicas de mercado; confira com paquimetro na peca real.",
+  "dim": [
+   35.0,
+   32.0,
+   10.1
+  ],
+  "bbox": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    35.0,
+    32.0,
+    10.1
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "furo1",
+    "tipo": "m3",
+    "pos": [
+     2.5,
+     2.5,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m3",
+    "pos": [
+     32.5,
+     2.5,
+     0
+    ]
+   },
+   {
+    "id": "furo3",
+    "tipo": "m3",
+    "pos": [
+     2.5,
+     29.5,
+     0
+    ]
+   },
+   {
+    "id": "furo4",
+    "tipo": "m3",
+    "pos": [
+     32.5,
+     29.5,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hc_sr04",
+  "nome": "Sensor ultrassônico HC-SR04",
+  "categoria": "Sensores",
+  "qtd_kit": 1,
+  "descricao": "Mede distância por eco de ultrassom (2 a 400 cm). Um transdutor emite, o outro recebe.",
+  "aproximado": true,
+  "fonte": "Placa 45 x 20 mm, transdutores de 16 mm a 26 mm entre centros; furos aproximados.",
+  "dim": [
+   45.0,
+   26.0,
+   16.4
+  ],
+  "bbox": [
+   [
+    0.0,
+    -6.0,
+    -2.54
+   ],
+   [
+    45.0,
+    20.0,
+    13.9
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "furo1",
+    "tipo": "m2",
+    "pos": [
+     1.5,
+     1.5,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m2",
+    "pos": [
+     43.5,
+     1.5,
+     0
+    ]
+   },
+   {
+    "id": "furo3",
+    "tipo": "m2",
+    "pos": [
+     1.5,
+     18.5,
+     0
+    ]
+   },
+   {
+    "id": "furo4",
+    "tipo": "m2",
+    "pos": [
+     43.5,
+     18.5,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "chave_kcd11",
+  "nome": "Chave liga/desliga KCD11",
+  "categoria": "Energia",
+  "qtd_kit": 1,
+  "descricao": "Interruptor geral: corta a alimentação das baterias.",
+  "aproximado": true,
+  "fonte": "Medidas tipicas de mercado; confira com paquimetro na peca real.",
+  "dim": [
+   15.0,
+   10.5,
+   23.0
+  ],
+  "bbox": [
+   [
+    -7.5,
+    -5.25,
+    -18.5
+   ],
+   [
+    7.5,
+    5.25,
+    4.54
+   ]
+  ],
+  "encaixes": []
+ },
+ {
+  "id": "bateria_18650",
+  "nome": "Bateria 18650",
+  "categoria": "Energia",
+  "qtd_kit": 2,
+  "descricao": "Célula de íon-lítio de 3,7 V. Duas em série fornecem cerca de 7,4 V.",
+  "aproximado": false,
+  "fonte": "Padrão 18650: 18 mm de diâmetro por 65 mm de comprimento.",
+  "dim": [
+   65.0,
+   18.4,
+   18.4
+  ],
+  "bbox": [
+   [
+    -32.5,
+    -9.2,
+    -9.2
+   ],
+   [
+    32.5,
+    9.2,
+    9.2
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "centro",
+    "tipo": "cel-18650",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suporte_2x18650",
+  "nome": "Suporte para 2 baterias 18650",
+  "categoria": "Energia",
+  "qtd_kit": 1,
+  "descricao": "Aloja as duas células e as liga em série.",
+  "aproximado": true,
+  "fonte": "Varia por fabricante (74 a 80 mm de comprimento); modelado com 77 x 41 x 19 mm.",
+  "dim": [
+   89.0,
+   41.0,
+   19.0
+  ],
+  "bbox": [
+   [
+    -38.5,
+    -20.5,
+    0.0
+   ],
+   [
+    50.5,
+    20.5,
+    19.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "celula1",
+    "tipo": "slot-18650",
+    "pos": [
+     -3.5,
+     -9.925,
+     10.8
+    ]
+   },
+   {
+    "id": "celula2",
+    "tipo": "slot-18650",
+    "pos": [
+     3.5,
+     9.925,
+     10.8
+    ]
+   },
+   {
+    "id": "furo1",
+    "tipo": "m3",
+    "pos": [
+     27,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m3",
+    "pos": [
+     -27,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo1t",
+    "tipo": "m3",
+    "pos": [
+     27,
+     0,
+     1.5
+    ]
+   },
+   {
+    "id": "furo2t",
+    "tipo": "m3",
+    "pos": [
+     -27,
+     0,
+     1.5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "motor_tt",
+  "nome": "Motor DC TT com redução 1:48",
+  "categoria": "Motores",
+  "qtd_kit": 4,
+  "descricao": "Motor amarelo com caixa de redução. Cada roda tem o seu.",
+  "aproximado": true,
+  "fonte": "Medidas típicas: 70 x 22,5 x 18,8 mm, furos de fixação a 17,5 mm.",
+  "dim": [
+   75.0,
+   36.8,
+   22.5
+  ],
+  "bbox": [
+   [
+    -16.5,
+    -18.4,
+    -11.25
+   ],
+   [
+    58.5,
+    18.4,
+    11.25
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "eixo+",
+    "tipo": "eixo-tt",
+    "pos": [
+     0,
+     13.9,
+     0
+    ]
+   },
+   {
+    "id": "eixo-",
+    "tipo": "eixo-tt",
+    "pos": [
+     0,
+     -13.9,
+     0
+    ]
+   },
+   {
+    "id": "furo+s",
+    "tipo": "m3",
+    "pos": [
+     20.5,
+     9.4,
+     8.75
+    ]
+   },
+   {
+    "id": "furo+i",
+    "tipo": "m3",
+    "pos": [
+     20.5,
+     9.4,
+     -8.75
+    ]
+   },
+   {
+    "id": "furo-s",
+    "tipo": "m3",
+    "pos": [
+     20.5,
+     -9.4,
+     8.75
+    ]
+   },
+   {
+    "id": "furo-i",
+    "tipo": "m3",
+    "pos": [
+     20.5,
+     -9.4,
+     -8.75
+    ]
+   }
+  ]
+ },
+ {
+  "id": "roda_65mm",
+  "nome": "Roda 65 mm",
+  "categoria": "Mecânica",
+  "qtd_kit": 4,
+  "descricao": "Roda com pneu de borracha; encaixa por pressão no eixo do motor TT.",
+  "aproximado": true,
+  "fonte": "Diâmetro 65 mm, largura 26 mm (típico).",
+  "dim": [
+   65.0,
+   26.0,
+   65.0
+  ],
+  "bbox": [
+   [
+    -32.5,
+    -0.0,
+    -32.5
+   ],
+   [
+    32.5,
+    26.0,
+    32.5
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "cubo",
+    "tipo": "cubo-tt",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "disco_encoder",
+  "nome": "Disco encoder",
+  "categoria": "Mecânica",
+  "qtd_kit": 4,
+  "descricao": "Disco com 20 fendas; com um sensor óptico permite medir a rotação da roda.",
+  "aproximado": true,
+  "fonte": "Medidas tipicas de mercado; confira com paquimetro na peca real.",
+  "dim": [
+   26.0,
+   4.5,
+   26.0
+  ],
+  "bbox": [
+   [
+    -13.0,
+    -0.0,
+    -13.0
+   ],
+   [
+    13.0,
+    4.5,
+    13.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "cubo",
+    "tipo": "cubo-tt",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "placa_inferior",
+  "nome": "Placa inferior do chassi",
+  "categoria": "Chassi",
+  "qtd_kit": 1,
+  "descricao": "Base de acrílico onde ficam os 4 motores.",
+  "aproximado": true,
+  "fonte": "Contorno 256 x 150 mm e 30 mm entre placas conforme o anúncio; furação estimada pela foto.",
+  "dim": [
+   256.0,
+   150.0,
+   3.0
+  ],
+  "bbox": [
+   [
+    -128.0,
+    -75.0,
+    0.0
+   ],
+   [
+    128.0,
+    75.0,
+    3.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "rasgo-int-FE",
+    "tipo": "rasgo",
+    "pos": [
+     47.5,
+     26.7,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-ext-FE",
+    "tipo": "rasgo",
+    "pos": [
+     47.5,
+     48.5,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-int-FD",
+    "tipo": "rasgo",
+    "pos": [
+     47.5,
+     -26.7,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-ext-FD",
+    "tipo": "rasgo",
+    "pos": [
+     47.5,
+     -48.5,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-int-TE",
+    "tipo": "rasgo",
+    "pos": [
+     -47.5,
+     26.7,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-ext-TE",
+    "tipo": "rasgo",
+    "pos": [
+     -47.5,
+     48.5,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-int-TD",
+    "tipo": "rasgo",
+    "pos": [
+     -47.5,
+     -26.7,
+     3.0
+    ]
+   },
+   {
+    "id": "rasgo-ext-TD",
+    "tipo": "rasgo",
+    "pos": [
+     -47.5,
+     -48.5,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador1-cima",
+    "tipo": "m3",
+    "pos": [
+     112,
+     56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador1-baixo",
+    "tipo": "m3",
+    "pos": [
+     112,
+     56,
+     0
+    ]
+   },
+   {
+    "id": "espacador2-cima",
+    "tipo": "m3",
+    "pos": [
+     112,
+     -56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador2-baixo",
+    "tipo": "m3",
+    "pos": [
+     112,
+     -56,
+     0
+    ]
+   },
+   {
+    "id": "espacador3-cima",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador3-baixo",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     56,
+     0
+    ]
+   },
+   {
+    "id": "espacador4-cima",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     -56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador4-baixo",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     -56,
+     0
+    ]
+   },
+   {
+    "id": "espacador5-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     68,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador5-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     68,
+     0
+    ]
+   },
+   {
+    "id": "espacador6-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -68,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador6-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -68,
+     0
+    ]
+   },
+   {
+    "id": "furo1-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo1-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo2-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo2-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo3-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo3-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo4-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo4-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo5-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo5-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo6-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo6-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo7-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo7-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo8-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo8-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo9-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo9-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo10-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo10-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     20,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "placa_superior",
+  "nome": "Placa superior do chassi",
+  "categoria": "Chassi",
+  "qtd_kit": 1,
+  "descricao": "Tampa de acrílico que recebe a eletrônica e as baterias.",
+  "aproximado": true,
+  "fonte": "Contorno 256 x 150 mm conforme o anúncio; furação estimada pela foto.",
+  "dim": [
+   256.0,
+   150.0,
+   3.0
+  ],
+  "bbox": [
+   [
+    -128.0,
+    -75.0,
+    0.0
+   ],
+   [
+    128.0,
+    75.0,
+    3.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "espacador1-cima",
+    "tipo": "m3",
+    "pos": [
+     112,
+     56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador1-baixo",
+    "tipo": "m3",
+    "pos": [
+     112,
+     56,
+     0
+    ]
+   },
+   {
+    "id": "espacador2-cima",
+    "tipo": "m3",
+    "pos": [
+     112,
+     -56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador2-baixo",
+    "tipo": "m3",
+    "pos": [
+     112,
+     -56,
+     0
+    ]
+   },
+   {
+    "id": "espacador3-cima",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador3-baixo",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     56,
+     0
+    ]
+   },
+   {
+    "id": "espacador4-cima",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     -56,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador4-baixo",
+    "tipo": "m3",
+    "pos": [
+     -112,
+     -56,
+     0
+    ]
+   },
+   {
+    "id": "espacador5-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     68,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador5-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     68,
+     0
+    ]
+   },
+   {
+    "id": "espacador6-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -68,
+     3.0
+    ]
+   },
+   {
+    "id": "espacador6-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -68,
+     0
+    ]
+   },
+   {
+    "id": "furo1-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo1-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo2-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo2-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo3-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo3-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo4-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo4-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo5-cima",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo5-baixo",
+    "tipo": "m3",
+    "pos": [
+     -80,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo6-cima",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo6-baixo",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo7-cima",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo7-baixo",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo8-cima",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo8-baixo",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo9-cima",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo9-baixo",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo10-cima",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo10-baixo",
+    "tipo": "m3",
+    "pos": [
+     -60,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo11-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo11-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo12-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo12-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo13-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo13-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo14-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo14-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo15-cima",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo15-baixo",
+    "tipo": "m3",
+    "pos": [
+     -40,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo16-cima",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo16-baixo",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo17-cima",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo17-baixo",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo18-cima",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo18-baixo",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo19-cima",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo19-baixo",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo20-cima",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo20-baixo",
+    "tipo": "m3",
+    "pos": [
+     -20,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo21-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo21-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo22-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo22-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo23-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo23-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo24-cima",
+    "tipo": "m3",
+    "pos": [
+     0,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo24-baixo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo25-cima",
+    "tipo": "m3",
+    "pos": [
+     20,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo25-baixo",
+    "tipo": "m3",
+    "pos": [
+     20,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo26-cima",
+    "tipo": "m3",
+    "pos": [
+     20,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo26-baixo",
+    "tipo": "m3",
+    "pos": [
+     20,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo27-cima",
+    "tipo": "m3",
+    "pos": [
+     20,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo27-baixo",
+    "tipo": "m3",
+    "pos": [
+     20,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo28-cima",
+    "tipo": "m3",
+    "pos": [
+     20,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo28-baixo",
+    "tipo": "m3",
+    "pos": [
+     20,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo29-cima",
+    "tipo": "m3",
+    "pos": [
+     20,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo29-baixo",
+    "tipo": "m3",
+    "pos": [
+     20,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo30-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo30-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo31-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo31-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo32-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo32-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo33-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo33-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo34-cima",
+    "tipo": "m3",
+    "pos": [
+     40,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo34-baixo",
+    "tipo": "m3",
+    "pos": [
+     40,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo35-cima",
+    "tipo": "m3",
+    "pos": [
+     60,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo35-baixo",
+    "tipo": "m3",
+    "pos": [
+     60,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo36-cima",
+    "tipo": "m3",
+    "pos": [
+     60,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo36-baixo",
+    "tipo": "m3",
+    "pos": [
+     60,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo37-cima",
+    "tipo": "m3",
+    "pos": [
+     60,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo37-baixo",
+    "tipo": "m3",
+    "pos": [
+     60,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo38-cima",
+    "tipo": "m3",
+    "pos": [
+     60,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo38-baixo",
+    "tipo": "m3",
+    "pos": [
+     60,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo39-cima",
+    "tipo": "m3",
+    "pos": [
+     60,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo39-baixo",
+    "tipo": "m3",
+    "pos": [
+     60,
+     40,
+     0
+    ]
+   },
+   {
+    "id": "furo40-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo40-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -40,
+     0
+    ]
+   },
+   {
+    "id": "furo41-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo41-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     -20,
+     0
+    ]
+   },
+   {
+    "id": "furo42-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     0,
+     3.0
+    ]
+   },
+   {
+    "id": "furo42-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo43-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     20,
+     3.0
+    ]
+   },
+   {
+    "id": "furo43-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     20,
+     0
+    ]
+   },
+   {
+    "id": "furo44-cima",
+    "tipo": "m3",
+    "pos": [
+     80,
+     40,
+     3.0
+    ]
+   },
+   {
+    "id": "furo44-baixo",
+    "tipo": "m3",
+    "pos": [
+     80,
+     40,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suporte_motor",
+  "nome": "Suporte de motor (acrílico)",
+  "categoria": "Chassi",
+  "qtd_kit": 8,
+  "descricao": "Prende o motor na placa inferior: dois por motor, um de cada lado.",
+  "aproximado": true,
+  "fonte": "Estimado pela foto do kit.",
+  "dim": [
+   12.0,
+   3.0,
+   26.5
+  ],
+  "bbox": [
+   [
+    -6.0,
+    -1.5,
+    -3.0
+   ],
+   [
+    6.0,
+    1.5,
+    23.5
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "aba",
+    "tipo": "aba",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "furo-i+",
+    "tipo": "m3",
+    "pos": [
+     0,
+     1.5,
+     2.5
+    ]
+   },
+   {
+    "id": "furo-i-",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -1.5,
+     2.5
+    ]
+   },
+   {
+    "id": "furo-s+",
+    "tipo": "m3",
+    "pos": [
+     0,
+     1.5,
+     20.0
+    ]
+   },
+   {
+    "id": "furo-s-",
+    "tipo": "m3",
+    "pos": [
+     0,
+     -1.5,
+     20.0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "espacador_m3x30",
+  "nome": "Espaçador M3 x 30 mm",
+  "categoria": "Fixação",
+  "qtd_kit": 6,
+  "descricao": "Coluna de latão que mantém as duas placas a 30 mm de distância.",
+  "aproximado": false,
+  "fonte": "Sextavado 5,5 mm, rosca M3.",
+  "dim": [
+   6.3,
+   5.5,
+   30.0
+  ],
+  "bbox": [
+   [
+    -3.17,
+    -2.75,
+    0.0
+   ],
+   [
+    3.17,
+    2.75,
+    30.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "base",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "topo",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     30.0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "parafuso_m3x30",
+  "nome": "Parafuso M3 x 30 mm",
+  "categoria": "Fixação",
+  "qtd_kit": 8,
+  "descricao": "Atravessa os dois suportes e o motor.",
+  "aproximado": false,
+  "fonte": "Rosca M3 padrão.",
+  "dim": [
+   5.6,
+   5.6,
+   32.0
+  ],
+  "bbox": [
+   [
+    -2.8,
+    -2.8,
+    -30.0
+   ],
+   [
+    2.8,
+    2.8,
+    2.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "cabeca",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "parafuso_m3x6",
+  "nome": "Parafuso M3 x 6 mm",
+  "categoria": "Fixação",
+  "qtd_kit": 16,
+  "descricao": "Fixa as placas nos espaçadores e os módulos no chassi.",
+  "aproximado": false,
+  "fonte": "Rosca M3 padrão.",
+  "dim": [
+   5.6,
+   5.6,
+   8.0
+  ],
+  "bbox": [
+   [
+    -2.8,
+    -2.8,
+    -6.0
+   ],
+   [
+    2.8,
+    2.8,
+    2.0
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "cabeca",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "porca_m3",
+  "nome": "Porca M3",
+  "categoria": "Fixação",
+  "qtd_kit": 16,
+  "descricao": "Trava os parafusos M3.",
+  "aproximado": false,
+  "fonte": "Sextavada 5,5 mm x 2,4 mm.",
+  "dim": [
+   6.3,
+   5.5,
+   2.4
+  ],
+  "bbox": [
+   [
+    -3.17,
+    -2.75,
+    0.0
+   ],
+   [
+    3.17,
+    2.75,
+    2.4
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "face1",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "id": "face2",
+    "tipo": "m3",
+    "pos": [
+     0,
+     0,
+     2.4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "jumpers",
+  "nome": "Jumpers (fita com 10)",
+  "categoria": "Eletrônica",
+  "qtd_kit": 4,
+  "descricao": "Cabos de ligação entre os módulos e o Arduino. Na montagem real são flexíveis.",
+  "aproximado": true,
+  "fonte": "Comprimento de 20 cm.",
+  "dim": [
+   206.0,
+   25.3,
+   2.5
+  ],
+  "bbox": [
+   [
+    -6.0,
+    -1.2,
+    0.0
+   ],
+   [
+    200.0,
+    24.06,
+    2.5
+   ]
+  ],
+  "encaixes": []
+ },
+ {
+  "id": "modulo_microsd",
+  "nome": "Módulo leitor microSD",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Grava e lê dados no cartão de memória por SPI.",
+  "aproximado": true,
+  "fonte": "Placa 42 x 24 mm; furos M2 aproximados.",
+  "dim": [
+   46.5,
+   24.0,
+   4.1
+  ],
+  "bbox": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    46.5,
+    24.0,
+    4.14
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "furo1",
+    "tipo": "m2",
+    "pos": [
+     2.2,
+     2.2,
+     0
+    ]
+   },
+   {
+    "id": "furo2",
+    "tipo": "m2",
+    "pos": [
+     2.2,
+     21.8,
+     0
+    ]
+   },
+   {
+    "id": "slot",
+    "tipo": "sd-slot",
+    "pos": [
+     4.5,
+     12.0,
+     2.55
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cartao_microsd",
+  "nome": "Cartão microSD",
+  "categoria": "Eletrônica",
+  "qtd_kit": 1,
+  "descricao": "Memória removível para registrar dados do carro.",
+  "aproximado": false,
+  "fonte": "Padrão SD Association: 15 x 11 x 1 mm.",
+  "dim": [
+   15.0,
+   11.0,
+   1.0
+  ],
+  "bbox": [
+   [
+    -7.5,
+    -5.5,
+    -0.5
+   ],
+   [
+    7.5,
+    5.5,
+    0.53
+   ]
+  ],
+  "encaixes": [
+   {
+    "id": "centro",
+    "tipo": "sd-card",
+    "pos": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ }
+]
